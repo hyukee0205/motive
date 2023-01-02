@@ -1,0 +1,149 @@
+@import "reset.css";
+
+
+
+
+
+.mg_wrap{
+  width: 100%;
+  padding: 8rem 0; 
+}
+
+
+.mg_inner{
+  max-width:1240px;
+  padding: 4rem 3.6rem 8rem;
+  margin: auto;
+}
+
+.mg_wrap .left_box{
+  width: 70%;
+  margin: auto;
+}
+
+.mg_wrap .left_box > div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.mg_wrap .left_box h2{
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 2.4rem;
+}
+
+
+.mg_wrap .left_box h3{
+  font-size: 1.4rem;
+  color: #999;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.mg_wrap .left_box .s_info,
+.mg_wrap .left_box .m_info{
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.mg_wrap .left_box .s_info div,
+.mg_wrap .left_box .m_info div{
+  margin-bottom: 1rem;
+}
+
+
+
+
+.mg_inner .right_box{
+  width: 70%;
+  margin: auto;
+}
+
+.mg_inner .right_box .order_title{
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.mg_inner .right_box .order_title h3{
+  padding-top: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.mg_inner .right_box .order_info{
+  border-bottom: 1px solid #eee;
+}
+
+.mg_inner .right_box .order_info ul{
+  display: flex;
+  padding: 1.2rem 0;
+  background-color: #f9f9f9;
+  font-size: 1.2rem;
+}
+
+.mg_inner .right_box .order_more ul{
+  background-color: #fff;
+}
+
+
+.order_info ul li{
+  text-align: center;
+}
+
+.order_info ul li:nth-child(1){
+  width: 17%;
+}
+
+.order_info ul li:nth-child(2){
+  width: 40%;
+}
+
+.order_info ul li:nth-child(3){
+  width: 8%;
+}
+
+.order_info ul li:nth-child(4){
+  width: 20%;
+}
+
+.order_info ul li:nth-child(5){
+  width: 15%;
+}
+
+
+.right_box .pager{
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+
+
+
+
+
+@media screen and (max-width:
+768px) {
+
+  
+  .mg_wrap .left_box{
+    width: 100%;
+  }
+
+  .mg_wrap .right_box {
+    width: 100%;
+  }
+
+}
+
+
+
+
+
+

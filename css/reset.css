@@ -1,0 +1,77 @@
+
+/* html { font-size: 30%; } */
+
+
+body,h1,h2,h3,h4,p,div,ul,li,dl,dt,dd {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Noto Sans KR', sans-serif, '나눔고딕', '맑은 고딕', '돋움';
+  color:#111;
+}
+
+body button{
+  font-family: 'Noto Sans KR', sans-serif, '나눔고딕', '맑은 고딕', '돋움';
+}
+
+ul,li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
+address {
+  font-style: normal;
+}
+button {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.hide {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+
+input {
+  margin: 0;
+}
+
+
+/* CSS 초기화 */
+html { font-size: 62.5%; }
+
+
+@media screen and (max-width:
+900px) {
+
+  html { font-size: 55%; }
+}
+
+
+@media screen and (max-width:
+790px) {
+
+  html { font-size: 53%; }
+}
+
+@media screen and (max-width:
+640px) {
+
+  html { font-size: 51%; }
+}
+
+@media screen and (max-width:
+480px) {
+  html { font-size:48%; }
+}
+
+
+

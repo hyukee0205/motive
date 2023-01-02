@@ -1,0 +1,204 @@
+@import "reset.css";
+
+
+
+
+
+
+
+
+
+
+/* header */
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background: #fff;
+}
+
+.header_box{
+  width: 100%;
+  position: relative;
+}
+
+header .m_gnb{
+  display: none;
+}
+
+
+.fa-solid{
+  display: none;
+}
+
+.header_box .gnb{
+  display: flex;
+  height: 8rem;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 0 3.6rem;
+}
+
+
+.header_box .gnb .logo a{
+ display: block;
+ width: 11rem;
+}
+
+.header_box .main_menu{
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 5rem; 
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+
+.header_box .main_menu li > a{
+  display: block;
+  padding-right: 5rem;
+}
+
+.header_box .main_menu li{
+  align-items: center;
+}
+
+.header_box .main_menu li > a:hover{
+  color: #4e2bf4;
+}
+
+.nav_color{
+  color: #4e2bf4;
+}
+
+.header_box .main_menu li li > a{
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.header_box .main_menu li > ul {
+  display: none;
+  position: absolute;
+  z-index: 9;
+  top: 10rem;
+}
+
+
+
+.header_box .sub_menu{
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+
+.header_box .sub_menu li > a{
+  margin-left: 1rem;
+}
+
+
+
+.nav_bg{
+  display: none;
+  width: 100%;
+  height: 21rem;
+  background: rgb(244, 244, 244);
+  z-index: 10;
+}
+
+
+
+@media screen and (max-width:
+768px) {
+
+  /* header */
+
+
+  .header_box .gnb{
+    display: none;
+  }
+  
+  header .m_gnb{
+    display: block;
+    height: 8rem;
+    /* padding: 3.6rem 3.6rem 0;
+    margin: 0 auto; */
+  }
+
+  header .m_main_gnb{
+    display: flex;
+    height: 8rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 0 3.6rem;
+    margin: 0 auto;
+  }
+
+
+  header .m_main_gnb .menu_icon{
+    display: flex;
+    align-self: center;
+    font-size: 2.4rem;
+    cursor: pointer;
+  }
+
+  .header_box .m_gnb .m_logo a{
+    display: block;
+    width: 11rem;
+   }
+
+  .header_box .m_menu_box{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 1.6rem 3.6rem;
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+  }
+
+  .header_box .active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    transition: 0.5s;
+    z-index: 11;
+  }
+
+
+
+
+  .header_box .m_menu_box .m_main_menu a{
+    display: block;
+  }
+
+  .header_box .m_main_menu > li,
+  .header_box .m_sub_menu > li{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  
+
+  .header_box .m_main_menu li > ul{
+    display: none;
+    margin-top: 0.7rem;
+  }
+
+  .header_box .m_main_menu li > ul a{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+ 
+
+}
+  

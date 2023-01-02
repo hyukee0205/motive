@@ -1,0 +1,242 @@
+@import "reset.css";
+
+
+
+.order_wrap{
+  width: 100%;
+  padding: 8rem 0 0; 
+}
+
+
+.order_inner{
+  max-width:1240px;
+  padding: 4rem 3.6rem 0;
+  margin: auto;
+}
+
+.order_box{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.order_box .left_box{
+  width: 55%; 
+  /* background: #777; */
+  /* height 임의값 설정 */
+}
+
+.order_box .right_box{
+  width: 40%;
+  /* background: #555; */
+  /* height 임의값 설정 */
+}
+
+.order_inner h2{
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #333;
+  margin-bottom: 2rem;
+}
+
+.order_box .left_box .c_info h3,
+.order_box .left_box .address_info h3,
+.order_box .left_box .coupon_info h3,
+.order_box .left_box .payment_info h3,
+.order_product h3{ 
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #999;
+  margin-bottom: 0.8rem;
+}
+
+.order_box .left_box .c_info div:nth-child(n+2){
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
+
+
+.order_box .left_box .address_info,
+.order_box .left_box .coupon_info,
+.order_box .left_box .payment_info{
+  margin-top: 4rem;
+}
+
+.order_box .left_box .address_info div:nth-child(2){
+  font-size: 1.2rem;
+  padding: 0.3rem 0;
+  margin-bottom: 0.7rem;
+}
+
+.order_box .left_box .address_info div:nth-child(2) a{
+  margin-left: 2rem;
+  text-decoration: underline;
+}
+
+.order_box .left_box .address_info div:nth-child(n+3){
+  font-size: 1.2rem;
+  color: #999;
+}
+
+
+
+.order_box .left_box .coupon_info div:nth-child(2) {
+  font-size: 1.2rem;
+  padding: 0.3rem 0;
+  margin-bottom: 0.3rem;
+}
+
+
+.order_box .left_box .coupon_info input{
+  width: 22rem;
+  border: none;
+  background-color: #D8D8D8;
+  color: #1b1b1b;
+  font-size: 1.2rem;
+  height: 3.4rem;
+  padding: 0.5rem 1.1rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.order_box .left_box .coupon_info .coupon_box {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.order_box .left_box .coupon_info .coupon_box button{
+  font-size: 1.2rem;
+  padding: 0 0.5rem 0 2rem;
+  text-decoration: underline;
+}
+
+.order_box .left_box .coupon_info .coupon_box div{
+  color: #f28860
+}
+
+.order_box .left_box .coupon_info div:nth-child(4){
+  margin-top: 0.3rem;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.order_box .left_box .payment_info div{
+  display: flex;
+  align-items: center;
+  padding: 0.3rem 0;
+  font-size: 1.2rem;
+  /* cursor: pointer; */
+}
+
+
+.order_box .left_box .payment_info input{
+  margin-right: 0.4rem;
+  cursor: pointer;
+}
+
+.right_box .order_product .product_box {
+  display: flex;
+  padding-top: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.right_box .order_product .product_box .product_img{
+  width: 12rem;
+  height: 16rem;
+  background: url("../images/order_img.jpeg") no-repeat center;
+  background-size: contain;
+  margin-right: 1.4rem;
+}
+
+.product_info h4{
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.product_info div:nth-child(3){
+  margin-top: 1rem;
+}
+
+.order_product .product_box{
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid #999;
+}
+
+.order_product .p_order_list {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid #999;
+}
+
+.order_product .p_order_list ul{
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  padding-bottom: 1.2rem;
+}
+
+.order_product .p_order_list ul:last-child{
+  padding-bottom: 0;
+  color: #f28860;
+}
+
+
+.right_box .p_confirm{
+  font-size: 1.2rem;
+  padding: 1.4rem 0;
+}
+
+.right_box .p_confirm > div:first-child{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.right_box .p_confirm > div:nth-child(2) button{
+  width: 100%;
+  height: 4rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.right_box .p_confirm > div:nth-child(2) button:hover{
+  transition: 0.4s;
+  background-color: #000;
+}
+
+.right_box .p_confirm > div:nth-child(3)  {
+  color: rgb(193,166,137);
+  margin-bottom: 0.8rem;
+}
+
+.right_box .p_confirm > div:nth-child(4) span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width:
+768px) {
+
+
+  .order_box{
+    flex-wrap: wrap;
+  }
+
+  .order_box .left_box{
+    width: 100%;
+  }
+
+  .order_box .right_box{
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+
+
+}
